@@ -1,0 +1,24 @@
+{
+	"name": "Manage_Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_Parent",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/CSV Files/products-10000.csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/35bca627-51e3-447d-91e4-8d859fbaf51a/resourceGroups/harish_rg/providers/Microsoft.Storage/storageAccounts/harishstg",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

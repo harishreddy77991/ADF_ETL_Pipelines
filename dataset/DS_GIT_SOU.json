@@ -1,0 +1,23 @@
+{
+	"name": "DS_GIT_SOU",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Http_Git",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "harishreddy77991/ADF_Copyactivity/d9ae037ff3a1f0bcda76263d88111fb54b533ce6/overseas-trade-indexes-september-2025-quarter-provisional.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "harish-etl-adf-03",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "afe4d1e5-f216-4333-9fd3-f07957a5c6d7",
+		"tenantId": "c3707a88-3e03-4045-8544-69c37d5c246b"
+	}
+}
